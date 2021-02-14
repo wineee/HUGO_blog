@@ -68,6 +68,7 @@ void swap(int *a,int *b) {
 	int t = *a; *a = *b; *b = t;
 }
 
+// 输出九宫格
 void print_map(int map[3][3]) {
    int i,j;
    for (i = 0; i < 3; i++) {
@@ -78,6 +79,7 @@ void print_map(int map[3][3]) {
    }
 }
 
+// 键盘输入九宫格
 void write() {
    int i,j,v[10] = {0};	
    for (i = 0; i < 3; i++)
@@ -95,6 +97,7 @@ void write() {
    print_map(map);	  
 }
 
+// 随机生成一个九宫格
 void random_map() {
 	int i,j;
 	for (i = 0; i < 3; i++)
@@ -109,6 +112,7 @@ int in_map(int x,int y) {
 	return x>=0 && y>=0 && x<3 && y<3;
 }
 
+// 编码算法，把九宫格映射成一个int值（9位数）
 int map_to_int(int a[3][3]) {
 	int ans = 0,i,j;
 	for (i = 0; i < 3; i++)
@@ -117,6 +121,7 @@ int map_to_int(int a[3][3]) {
 	return ans;
 }
 
+// 键盘输入移动方向
 void move() {
 	char s[5];
 	int st[300][3],top = 0;
@@ -163,7 +168,7 @@ int yy[] = {0,0,1,-1};
 int next(int x) {
 	return ++x == MAXX ? x = 0 : x;
 }
-
+// 九宫格9个数按照顺序排列其实就是1..9全排列，用康托展开编码
 int fac[11] = {1,1,2,6,24,120,720,5040,40320,362880,3628800};
 int map_to_order(int a[3][3]) {	
     int i,j,ans = 0;
@@ -176,12 +181,15 @@ int map_to_order(int a[3][3]) {
 	return ans; 
 }
 
+// 9位数还原成九宫格
 void int_to_map(int x,int a[3][3]) {
 	int i;
 	for (i = 8; ~i; i--,x /= 10)
 	  a[i/3][i%3] = x%10;
 }
 
+// bfs求解算法
+// 使用两种编码方法是因为9位数易于编码解码， 康托展开可以映射到更小的空间，但难解码（其实可以）
 int ans[MAXX],top;
 void find() {
 	head = 1; tail = 2;

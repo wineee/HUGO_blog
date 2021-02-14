@@ -32,7 +32,6 @@ paginate = 10
   post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
-  math = true
   author = "rewine" # You can also set author in post front matter individually
   subTitle = "Informatik verbindet dich und mich."
 
@@ -133,9 +132,13 @@ paginate = 10
     url = "/search/"
     weight = 4
   [[menu.nav]]
+    name = "Friends"
+    url = "/friends/"
+    weight = 5
+  [[menu.nav]]
     name = "RSS"
     url = "/index.xml"
-    weight = 5
+    weight = 6
 
   [[menu.link]]
     name = "GitHub"
