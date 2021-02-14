@@ -37,7 +37,7 @@ paginate = 10
   subTitle = "Informatik verbindet dich und mich."
 
   # Source URL of the website, will appear in the footer
-  sourceURL = "https://github.com/itsme/my_blog"
+  sourceURL = "https://github.com/wineee/wineee.github.io"
 
   # Use CloudFlare Workers to accelerate the Google Analytics
   # If you are using this please comment the googleAnalytics above

@@ -7,8 +7,6 @@ tags = ["软件推荐"]
 
 +++
 
-
-
 ## linux
 
 - oh-my-zsh	漂亮好用的 shell
@@ -117,8 +115,3 @@ tags = ["软件推荐"]
 - AdGuard	拦截广告
 - 划词翻译
 - ampermonkey	运行各种脚本
-
-
-
-
-

@@ -1,13 +1,11 @@
 +++
 
 title = "搭建个人博客（github action+hugo）"
-date = "2021-02-12"
-description = "my favor softworks"
-tags = ["hugo", "blog"]
+date = "2021-02-15"
+description = "hugo blog"
+tags = ["hugo","blog"]
 
 +++
-
-  
 
 ### 前言
 
@@ -15,41 +13,59 @@ tags = ["hugo", "blog"]
 
 我还试过WordPress，用的免费主机（当然现在挂了）
 
-在同学帮助下搭建了 hexo+github 的blog，不过我嫌主题丑万年不更新。
+以前在同学帮助下搭建了 hexo+github 的blog，不过我嫌主题丑万年不更新。
 
-csdn 
+[csdn](blog.csdn.net/qq_33831360) 的blog因为要绑定手机号，高中没机会用，大一才开始写一些东西。
 
-###### [gridea](https://github.com/getgridea/gridea) 这个是我去年了解的，看上去挺方便的，我没试过，感兴趣的可以看看。
+[博客园](https://home.cnblogs.com/u/rewine/) 后台太丑，不喜欢用这个写。
+
+[gridea](https://github.com/getgridea/gridea) 这个是我去年了解的，看上去挺方便的，我没试过，感兴趣的可以看看。
 
 <!--more-->
 
 
 
-###  hugo
+###  hugo 博客搭建
 
-第一步选择主题
+不重复造轮子，我只放一些参考的文章，不会详细写每个步骤。
+
+#### 选择主题
+
+在官网找一个顺眼的主题
 
 https://themes.gohugo.io/
 
+我的要求主要是简洁，选用了hugo主题
+
 https://github.com/dsrkafuu/hugo-theme-fuji
 
-搭建
+#### 搭建 hugo 博客
 
-https://zhuanlan.zhihu.com/p/105021100?utm_source=weibo
+这方面教程很多
 
-自动化部署
+https://zhuanlan.zhihu.com/p/105021100
+
+[HuGo博客搭建部署到GitHub Pages](https://blog.csdn.net/qq_33831360/article/details/107484580)
+
+#### 自动化部署（非必须）
+
+> 方便用多台电脑是同步
 
 ##### [Hugo + Github Actions 实现自动化部署](https://immmmm.com/hugo-github-actions/)
 
+如果失败，原因很可能是教程里配置版本太低了，可以参考我的配置
+
+https://github.com/wineee/HUGO_blog/tree/master/.github/workflows
 
 
-Hugo中常用命令及参数（https://hugo.aiaide.com/post/hugo%E4%B8%AD%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%8F%8A%E5%8F%82%E6%95%B0/）
+
+#### 其他参考资料
+
+[Hugo中常用命令及参数](https://hugo.aiaide.com/post/hugo%E4%B8%AD%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%8F%8A%E5%8F%82%E6%95%B0/)
+
+[HuGo博客处理数学公式方案](https://blog.csdn.net/qq_33831360/article/details/107490524)
 
 
 
-HuGo博客搭建部署到GitHub Pages（https://blog.csdn.net/qq_33831360/article/details/107484580）
-
-###### HuGo博客处理数学公式方案（https://blog.csdn.net/qq_33831360/article/details/107490524）
-
-
+**工具：Typora 编写文章， Picgo 上传图片。**
 
