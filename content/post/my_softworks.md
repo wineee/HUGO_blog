@@ -7,9 +7,9 @@ tags = ["软件推荐"]
 
 +++
 
-## 
 
-# linux
+
+## linux
 
 - oh-my-zsh	漂亮好用的 shell
 
@@ -55,7 +55,7 @@ tags = ["软件推荐"]
 
 - obs	录屏/直播
 
-# windnws
+## windnws
 
 - 7-zip 高效简洁的压缩软件
 - snipaste 截图
@@ -66,9 +66,9 @@ tags = ["软件推荐"]
 - 火绒 杀毒治流氓
 - utools  让你效率倍增的快速启动软件 / 小工具合集 (插件功能扩展), 也有linux版
 
-# Android
+## Android
 
-### oppo r17 pro
+#### oppo r17 pro
 
 - YouTube	视频
 - Telegram	聊天，传文件
@@ -93,7 +93,7 @@ tags = ["软件推荐"]
 - tim	代替qq
 - 网易云音乐	到点了，网抑云
 
-### 华为m6
+#### 华为m6
 
 - rotation	辅助控制屏幕旋转
 - Termux	高级的终端模拟器，平板的大屏+键盘与 Termux 更搭配哦
@@ -103,14 +103,14 @@ tags = ["软件推荐"]
 - Kiwi Browser	支持扩展的浏览器
 - WPS	适配了平板，挺好的
 
-### 海信A5
+#### 海信A5
 
 - 微信读书墨水屏版	微信少有的良心产品，资源很多
 - 绿色守护/炼妖壶/权限狗	优化耗电，权限管理
 
 
 
-# 浏览器扩展
+## 浏览器扩展
 
 - darkreader	暗黑界面
 - Ghelper	免费上谷歌
