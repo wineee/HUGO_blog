@@ -7,7 +7,7 @@ tags = [
     "单纯型"
 ]
 noToc = true
-
+math =  true
 +++
 
 ## 题目描述

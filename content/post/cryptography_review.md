@@ -6,7 +6,7 @@ tags = [
     "cryptography"
 ]
 noToc = true
-
+math = true
 +++
 
 # 第一章 引言
@@ -954,7 +954,7 @@ noToc = true
   - Kerberos系统在一个分布式的Client/Server体系机构中采用一个或多个Kerberos服务器提供一个认证服务
   - Kerberos系统基于对称密钥（DES算法）构建，提供一个基于可信第三方的认证服务
 
-  ![image-20201202221608940](![](https://raw.githubusercontent.com/wineee/MarkDownPIC/master/img/image-20201202221608940.png)
+![](https://raw.githubusercontent.com/wineee/MarkDownPIC/master/img/image-20201202221608940.png)
 
 
 
