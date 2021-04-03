@@ -5,8 +5,8 @@ description = "lanqiaobie"
 tags = [
     "ACM","蓝桥杯"
 ]
+math = true
 noToc = true
-
 +++
 
 ##  1.准备蓝桥杯需要做什么，有哪些需要学习的算法？
