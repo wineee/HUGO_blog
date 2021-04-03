@@ -23,7 +23,7 @@ tags = ["hugo"]
 
 <!--more-->
 
-
+emacs 搞成的博客也不错，比如：https://evanmeek.github.io
 
 ###  hugo 博客搭建
 
