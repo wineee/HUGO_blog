@@ -2,10 +2,10 @@
 title: 使用c++解决leetcode多线程题题目（之一）semaphore
 date: 2021-04-09
 math: true
-tags:  ["c++", "leetcode", "并发"]
+tags:  ["c++", "leetcode", "多线程"]
 ---
 
-通过 `man sem_init` 可以查看具体文档
+通过 `man sem_init` 可以查看具体文档。
 或者使用： https://man7.org/linux/man-pages/man3/sem_init.3.html
 
 sem_init函数是Posix信号量操作中的函数。sem_init() 初始化一个定位在 sem 的匿名信号量。pshared 参数指明信号量是由进程内共享，还是由进程之间共享。如果 pshared 的值为 0，那么信号量将被进程内的线程共享。value 参数指定的初始值。 
