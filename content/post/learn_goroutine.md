@@ -232,7 +232,8 @@ func main() {
 			fmt.Println(a1)
 		case a2 = <-c2:
 			fmt.Println(a2)
-		}
+        }
+    }
 ```
 输出变为
 >World
