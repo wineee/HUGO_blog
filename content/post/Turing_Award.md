@@ -71,13 +71,20 @@ tags:  ["Turing Award"]
 
 > 别人可能不熟悉，但 OIer 一定知道他
 
+**高德纳** **Donald E. Knuth**
+
+- TeX 排版软件
+- 《计算机程序设计艺术》计算机科学理论与技术的经典巨著
+- 舞蹈链（Dancing Links)
+- KMP 算法的“K”
+- LR解析理论（LR parsing theory）、克努斯-莫里斯-普拉特模式（Knuth-Moris-Pratt pattern）等
+- ...
+
+> 高老爷子的个人主页 https://www-cs-faculty.stanford.edu/~knuth/
+
 ## 成果比人出名的几位
 
-
-
  LISP 语言， α-β 搜索：**约翰·麦卡锡** **John McCarthy**  
-
-TeX:   **高德纳** **Donald E. Knuth**  《计算机程序设计艺术》堪称计算机科学理论与技术的经典巨著
 
 “汉明距离”和“汉明重量”：  **理查德·卫斯里·汉明** **Richard Hamming**  美国计算机协会（ACM）的创立人之一
 
