@@ -82,7 +82,7 @@ tags:  ["Turing Award"]
 
 > 高老爷子的个人主页 https://www-cs-faculty.stanford.edu/~knuth/
 
-## 成果比人出名的几位
+## 另外出名的几位
 
  LISP 语言， α-β 搜索：**约翰·麦卡锡** **John McCarthy**  
 
@@ -108,7 +108,7 @@ BNF 范式：**彼得·诺尔** **Peter Naur** ALGOL 60 语言
 
 关系型数据库：**埃德加·科德** **Edgar F. Codd**   
 
-## 其他
+## 其他（摘自维基百科）
 
 > 仅仅大致整理，不严谨
 
