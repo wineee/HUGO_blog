@@ -2,7 +2,7 @@
 title: Haskell 常用函数笔记
 date: 2021-06-21
 math: false
-tags:  ["haskell"]
+tags:  ["Haskell"]
 ---
 
 

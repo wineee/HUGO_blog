@@ -1,6 +1,6 @@
 ---
-title: Codeworld: 使用Haskell实现一个贪吃蛇小游戏
-date: 2021-08-20
+title: "Codeworld: 使用Haskell实现一个贪吃蛇小游戏"
+date: "2021-08-20"
 math: false
 tags:  ["Haskell"]
 ---
