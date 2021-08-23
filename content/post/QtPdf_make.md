@@ -1,8 +1,8 @@
 ---
-title: "Codeworld: 使用Haskell实现一个贪吃蛇小游戏"
+title: "QtPDF 的编译与试用"
 date: "2021-08-23"
 math: false
-tags:  ["Haskell"]
+tags:  ["Qt"]
 ---
 
 QtPDF 是 Qt 封装的 pdfium 模块，以 [GPLv3/](https://www.gnu.org/licenses/gpl-3.0.html)[LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html) 协议分发，也可以在 QT marketplace 购买可商业版本
