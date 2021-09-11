@@ -24,6 +24,7 @@ tags = ["hugo"]
 <!--more-->
 
 emacs 搞成的博客也不错，比如：https://evanmeek.github.io
+upd: [Halo](https://github.com/halo-dev) 看起来不错
 
 ###  hugo 博客搭建
 
