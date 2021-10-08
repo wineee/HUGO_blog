@@ -99,7 +99,7 @@ RESOURCES += \
 
 PKGCONFIG += peony，可以使用 libpeony-dev 中的函数了。注意外部只能调用有PEONYCORESHARED_EXPORT 声明的类
 
-1. peony-set-wallpaper_global.h
+3. peony-set-wallpaper_global.h
 
 ```cpp
 #ifndef PEONYQTSETWALLPAPER_GLOBAL_H
@@ -124,7 +124,7 @@ Q_DECL_IMPORT   // 使用共享库的客户项目
 
 这个 PEONYSETWALLPAPER_LIBRARY 在 .pro 中定义了。
 
-1. set-wallpaper-plugin.h
+4. set-wallpaper-plugin.h
 
 ```cpp
 #ifndef SETWALLPAPERPLUGIN_H
