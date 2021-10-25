@@ -1,5 +1,5 @@
 ---
-title: "简单介绍下如何给Peony写插件"
+title: "简单介绍下如何给 Peony 写插件"
 date: "2021-10-04"
 math: false
 tags:  ["qt"]
