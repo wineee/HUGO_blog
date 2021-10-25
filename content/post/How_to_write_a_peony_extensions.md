@@ -2,7 +2,7 @@
 title: "简单介绍下如何给Peony写插件"
 date: "2021-10-04"
 math: false
-tags:  ["Qt"]
+tags:  ["qt"]
 ---
 
 peony 是优麒麟的文件管理器，我之前在 [开源软件供应链点亮计划](https://summer.iscas.ac.cn/#/org/prodetail/210120164) 活动中中选了实现预览插件的项目，今天稍微总结下。
