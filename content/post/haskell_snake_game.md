@@ -312,3 +312,5 @@ checkSnakeAction dt world snakeS
 
 ![wishimg](https://cdn.jsdelivr.net/gh/wineee/MarkDownPIC@master/img/9b9b7cf044edeaee63cff5e87dba6e58.png)
 
+upd：我用 CodeWorld 实现图形学的直线/圆扫描转换，多边形扫描转换：https://github.com/wineee/LearnComputerGraphics
+
