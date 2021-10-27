@@ -1,6 +1,6 @@
 ---
-title: "在 nixos 中使用 telega"
-date: "2021-10-28"
+title: 在 nixos 中使用 telega 进行聊天
+date: "2021-10-27"
 math: false
 tags:  ["nixos","emacs"]
 ---
