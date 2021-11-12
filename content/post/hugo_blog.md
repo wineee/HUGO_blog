@@ -58,7 +58,7 @@ https://zhuanlan.zhihu.com/p/105021100
 
 https://github.com/wineee/HUGO_blog/tree/master/.github/workflows
 
-
+> upd: 也可以部署到 [vercel](https://vercel.com) 上, 比 github page 还简单.
 
 #### 其他参考资料
 
