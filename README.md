@@ -4,3 +4,5 @@
 博客地址 [https://wineee.github.io](https://wineee.github.io/)
 
 博客主题使用  dsrkafuu/hugo-theme-fuji
+
+用 vercel 部署也挺方便
