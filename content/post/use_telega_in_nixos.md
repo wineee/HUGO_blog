@@ -68,7 +68,9 @@ git clone git@github.com:zevlg/telega.el.git
 
 ```bash
 nix-shell -p cmake gperf pkg-config tdlib
-cd ~/.emacs.d/site-lisp/telega.el/server
+cd ~/.emacs.d/site-lisp/telega.el
+make
+cd server
 make install
 ```
 
@@ -113,4 +115,5 @@ nix-build -A tdlib
 ```bash
 nix-env -f . -iA tdlib
 ```
+测试成功可以向 nixpkgs 提 pr
 
