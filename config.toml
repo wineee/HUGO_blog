@@ -1,4 +1,4 @@
-baseURL = "https://wineee.github.io"
+baseURL = "/"
 title = "REWINE NOTE"
 
 theme = "fuji"
