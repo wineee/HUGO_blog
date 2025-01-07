@@ -19,10 +19,10 @@ jobs:
       - name: Build
         run:  hugo --minify
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} # 这里的 ACTIONS_DEPLOY_KEY 则是上面设置 Private Key的变量名
-          external_repository: wineee/wineee.github.io # Pages 远程仓库 
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: wineee/wineee.github.io
           publish_dir: ./public
           keep_files: false # remove existing files
           publish_branch: master  # deploying branch
