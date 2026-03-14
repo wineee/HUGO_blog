@@ -1,4 +1,9 @@
-{{- with .Site.GoogleAnalytics -}}
+{{- $ga := "" -}}
+{{- with site.Config.Services.GoogleAnalytics.ID -}}{{ $ga = . }}{{- end -}}
+{{- if eq $ga "" -}}
+  {{- with site.Params.googleAnalytics -}}{{ $ga = . }}{{- end -}}
+{{- end -}}
+{{- with $ga -}}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

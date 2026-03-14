@@ -20,7 +20,7 @@ pagination.pagerSize = 10
   home = ["HTML", "RSS", "JSON"]
 
 [permalinks]
-  post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
+  post = "/:section/:contentbasename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
   author = "rewine"
