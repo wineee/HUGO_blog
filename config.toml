@@ -5,7 +5,6 @@ theme = "PaperMod"
 hasCJKLanguage = true
 enableEmoji = true
 enableRobotsTXT = true
-ignoreErrors = ["error-disable-taxonomy"]
 
 ## Change this two to switch between different language
 languageCode = "zh-cn"  # For RSS, view https://www.rssboard.org/rss-language-codes
@@ -17,13 +16,6 @@ pagination.pagerSize = 10
 
 # googleAnalytics = "UA-000000000-0" # Set your Google Analytics UA here
 
-[outputFormats]
-  [outputFormats.SearchIndex]
-    isPlainText = true
-    notAlternative = true
-    mediaType = "application/json"
-    path = "/search/"
-
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
@@ -31,73 +23,18 @@ pagination.pagerSize = 10
   post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
-  author = "rewine" # You can also set author in post front matter individually
-  subTitle = "Informatik verbindet dich und mich."
-
-  # Source URL of the website, will appear in the footer
-  sourceURL = "https://github.com/wineee/wineee.github.io"
-
-  # Use CloudFlare Workers to accelerate the Google Analytics
-  # If you are using this please comment the googleAnalytics above
-  # Check https://github.com/SukkaW/cloudflare-workers-async-google-analytics for more details
-  # googleAnalyticsTid = "UA-000000000-0"
-  # googleAnalyticsRoute = "https://*.*.workers.dev/"
-
-  # Google AdSense
-  # The AdSense code will be inserted between the head tags of your site.
-  # googleAdsense = "0000000000000000"
-
-  # Word counter and read time indicator in post metadata
-  showWordCounter = true
-  showReadTime = false
-
-  # License in the footer
-  showLicenseInFooter = false
-
-  # License at the end of each post
-  showLicense = true
-  showToc = true
-
-  # Copyright
-  copyrightStartYear = "2020"
+  author = "rewine"
 
   # Open Graph & Twitter Card variables
   # You can also set description and images in post front matter individually
   description = "A minimal Hugo theme with nice theme color."
-  og = "/img/og.png" # This will use the image called og.png in static/img folder
 
   # Posts shown in homepage
   mainSections = ["post"]
-
-  # Bangumi image chart id
-  # bgmImageChart = "000000"
-
-  # License
-  license = "CC BY-NC-SA 4.0"
-  licenseLink = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-
-  # Comments
-  # utterances, see: https://utteranc.es/
-  utterancesRepo = "wineee/hugoblogtalks"
-  utterancesIssueTerm = "pathname"
-
-  # Disqus, see: https://disqus.com/admin/install/platforms/universalcode/
-  # disqusShortname = "*********"
-  # Also use DisqusJS for accessing from Mainland China, see: https://github.com/SukkaW/DisqusJS
-  # If you want to set multiple api key, see theme's README for more details
-  # disqusJSApi = "https://*********/"
-  # disqusJSApikey = "**********"
-
-  # custom lazyload placeholder
-  # 16:9
-  lazyPlaceholder = "/assets/lazyload/dsrca_loading_480x270.svg"
-  # 32:9
-  lazyPlaceholderRow = "/assets/lazyload/dsrca_loading_960x270.svg"
-  # 8:9
-  lazyPlaceholderCol = "/assets/lazyload/dsrca_loading_480x540.svg"
-
-  # Let images display in full brightness under dark mode
-  # disableDarkImage = true
+  ShowToc = true
+  ShowReadingTime = false
+  ShowWordCount = true
+  ShowCodeCopyButtons = true
 
 [markup]
   [markup.goldmark]
