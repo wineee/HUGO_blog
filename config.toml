@@ -35,6 +35,7 @@ pagination.pagerSize = 10
   ShowReadingTime = false
   ShowWordCount = true
   ShowCodeCopyButtons = true
+  comments = true
 
 [markup]
   [markup.goldmark]
