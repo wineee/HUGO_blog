@@ -1,6 +1,8 @@
 +++
 title = "Search"
 description = ""
+layout = "search"
+outputs = ["HTML", "JSON"]
 +++
 
 You can change search page details above.

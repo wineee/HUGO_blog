@@ -1,11 +1,10 @@
 baseURL = "/"
 title = "REWINE NOTE"
 
-theme = "fuji"
+theme = "PaperMod"
 hasCJKLanguage = true
 enableEmoji = true
 enableRobotsTXT = true
-disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
 ## Change this two to switch between different language
@@ -26,7 +25,7 @@ pagination.pagerSize = 10
     path = "/search/"
 
 [outputs]
-  home = ["HTML", "RSS", "SearchIndex"]
+  home = ["HTML", "RSS", "JSON"]
 
 [permalinks]
   post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
@@ -115,30 +114,34 @@ pagination.pagerSize = 10
   tag = "tags"
 
 [menu]
-  [[menu.nav]]
+  [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
-  [[menu.nav]]
+  [[menu.main]]
     name = "Archives"
     url = "/archives/"
     weight = 2
-  [[menu.nav]]
-    name = "About"
-    url = "/about/"
-    weight = 3
-  [[menu.nav]]
+  [[menu.main]]
     name = "Search"
     url = "/search/"
+    weight = 3
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
     weight = 4
-  [[menu.nav]]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
+  [[menu.main]]
     name = "Friends"
     url = "/friends/"
-    weight = 5
-  [[menu.nav]]
+    weight = 6
+  [[menu.main]]
     name = "RSS"
     url = "/index.xml"
-    weight = 6
+    weight = 7
 
   [[menu.link]]
     name = "GitHub"
