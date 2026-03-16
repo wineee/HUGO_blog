@@ -1,7 +1,7 @@
 ---
-title: "wlroots scene graph 速览"
+title: "简要介绍 wlroots 的 scene graph"
 date: 2026-03-14
-tags: ["Wayland", "wlroots", "渲染", "Linux"]
+tags: ["Wayland", "wlroots", "Linux"]
 draft: false
 ---
 
