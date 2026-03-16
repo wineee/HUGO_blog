@@ -6,10 +6,13 @@ showToc = false
 
 +++
 
-Orz
-- [hzwer](http://hzwer.com) 黄学长的博客，承载oi记忆
-- [coolshell](https://coolshell.cn) 耗子叔的博客，干货比较多
-- [manateelazycat](https://manateelazycat.github.io/index.html) 老王，emacs黑客，前deepin开发者, eaf作者
-- [yinwang](http://www.yinwang.org) 王垠，PL领域大神
-- [Felix Yan](https://felixc.at) Arch打包达人肥猫
+目前没有友链，欢迎来加
 
+-----
+
+给巨佬们的单链，Orz:
+- [hzwer](http://hzwer.com) 黄学长的博客，承载oi记忆
+- [coolshell](https://coolshell.cn) 耗子叔的博客，干货比较多(upd: 一路走好)
+- [manateelazycat](https://manateelazycat.github.io/index.html) 老王，emacs黑客，前deepin开发者, eaf作者
+- [yinwang](http://www.yinwang.org) 王垠，PL领域大神（upd：少扯淡就更好了）
+- [Felix Yan](https://felixc.at) Arch打包达人肥猫
