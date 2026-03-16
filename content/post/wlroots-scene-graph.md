@@ -128,7 +128,7 @@ struct wlr_scene_node *node = wlr_scene_node_at(
 
 一个完整窗口在场景树中的组织方式如下：
 
-```
+```txt
 scene->tree
   └── wlr_scene_tree  (toplevel window, data = my_window*)
         ├── wlr_scene_rect       (title bar 背景色)
