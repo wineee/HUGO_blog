@@ -90,7 +90,7 @@ void on_output_frame(struct wl_listener *listener, void *data) {
 }
 ```
 
-在 `wlr_scene_output_build_state` 内部，wlroots 会：
+在 `wlr_scene_output_commit()` 内部会构建输出 state（调用 `wlr_scene_output_build_state()`），wlroots 会：
 
 1. **遍历场景树**，按 z-order 收集所有与该 output 相交的可见节点
 2. **计算 damage 区域**：合并上次以来所有节点移动、大小变化、buffer 更新产生的脏区域
