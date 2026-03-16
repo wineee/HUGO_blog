@@ -1,0 +1,4 @@
+{{- /* Load MathJax only for pages that opt in via front matter or global config. */ -}}
+{{- if or .Params.math site.Params.math -}}
+  {{- partial "math.html" . -}}
+{{- end -}}

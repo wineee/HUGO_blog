@@ -37,6 +37,9 @@ pagination.pagerSize = 10
   ShowCodeCopyButtons = true
   comments = true
 
+  [params.footer]
+    text = '<a href="https://icp.gov.moe/?keyword=20211211" target="_blank" rel="noopener">萌ICP备20211211号</a>'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
