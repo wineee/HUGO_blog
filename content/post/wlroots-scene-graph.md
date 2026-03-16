@@ -80,9 +80,12 @@ scene graph 使用**输出布局坐标**（output-layout coordinates），即全
 void on_output_frame(struct wl_listener *listener, void *data) {
     struct wlr_scene_output *scene_output = /* ... */;
 
-    struct wlr_scene_output_state state = {0};
-    wlr_scene_output_build_state(scene_output, &state, NULL);
-    wlr_output_commit_state(output, &state);
+    if (!wlr_scene_output_commit(scene_output, NULL)) {
+        return;
+    }
+
+    struct timespec now;
+    clock_gettime(CLOCK_MONOTONIC, &now);
     wlr_scene_output_send_frame_done(scene_output, &now);
 }
 ```
