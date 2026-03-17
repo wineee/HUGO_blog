@@ -1,8 +1,6 @@
-# HUGO_blog
-[搭建个人博客过程](https://wineee.github.io/post/hugo_blog/)
+# REWINE NOTE
+个人博客，基于 Hugo + PaperMod。
 
-博客地址 [https://wineee.github.io](https://wineee.github.io/)
-
-博客主题使用  dsrkafuu/hugo-theme-fuji
-
-用 vercel 部署也挺方便
+- 博客地址：<https://wineee.github.io/>
+- 主题：PaperMod（已替换自 hugo-theme-fuji）
+- 本地预览：`hugo server -D`
