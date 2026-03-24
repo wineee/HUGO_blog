@@ -12,7 +12,7 @@ noToc = true
 
 我在 deepin 25 上日常用 GCC 编译，VSCode 里 clangd 一直报系统头文件 `file not found`，但一直没细查。直到有次切到 `clang++-19` 编译项目，CMake 直接报错：
 
-```
+```txt
 /usr/bin/ld: 找不到 -lstdc++: 没有那个文件或目录
 ```
 
