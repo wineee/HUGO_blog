@@ -27,7 +27,8 @@ sudo apt install libstdc++-13-dev
 ```
 
 这里比较坑的是 deepin 预装了 `libstdc++-12-dev`，但 clangd 仍然用不了。  
-我一开始先装了 `libc++-dev` 和 `libc++abi-dev`，结果发现它们和 `libstdc++` 不是同一个库（clangd 虽然可以用 libc++，但默认还是走 libstdc++）。
+我一开始先装了 `libc++-dev` 和 `libc++abi-dev`，但是编译仍然报错，看起来 clang 还是默认使用 libstdc++ 而非 libc++。
 
-装完后 clangd 不再报系统头文件缺失，`clang++-19` 也能正常编译链接。  
-小结：clangd 报 `file not found` 时，优先检查 `libstdc++-dev` 是否缺失，别被预装的版本迷惑。
+装完 `libstdc++-13-dev` 后 clangd 不再报系统头文件缺失，`clang++-19` 也能正常编译链接。
+
+deepin 上的 gcc 版本是奇怪的 `4:13.2.0+really12.3.0-0deepin2`，不知道是不是系统库 gcc 降级导致的坑。
