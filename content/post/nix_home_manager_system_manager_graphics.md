@@ -6,7 +6,8 @@ tags = [
     "nix",
     "home-manager",
     "system-manager",
-    "linux"
+    "linux",
+    "AI-generated"
 ]
 noToc = true
 +++
